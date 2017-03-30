@@ -26,7 +26,7 @@ ul {
 }
 
 li {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   font-size: 2em;
   display: inline;
   padding-left: 8%;
@@ -39,7 +39,7 @@ li {
  
 a {
   text-decoration: none;
-  color: #0033cc;
+  color: #b1b1b1;
   
   transition: .3s background-color;
 }
