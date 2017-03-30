@@ -1,0 +1,53 @@
+
+body{
+    color: black;
+	background-color: #e0555a;
+	background-image: url("../images/banner.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom: 0;
+	margin-bottom:0;
+}
+
+ul {
+  position: fixed;
+  bottom: 0;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: -5%;
+  
+  height: 15%
+  
+  
+}
+
+li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  display: inline;
+  padding-left: 8%;
+  padding-right: 8%;
+  
+  
+}
+ 
+a {
+  text-decoration: none;
+  color: #fff;
+  
+  transition: .3s background-color;
+}
+ 
+a:hover {
+  color: #005f5f;
+}
+ 
+a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}

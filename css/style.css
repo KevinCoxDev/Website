@@ -12,6 +12,7 @@
 	body {
 		color: #FFF;
 	}
+	
 
 
 	body, input, select, textarea {
@@ -22,6 +23,10 @@
 		line-height: 1.75em;
 	}
 
+	
+	
+
+	
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -234,6 +239,7 @@
 		.icon > .label {
 			display: none;
 		}
+		
 
 /* Image */
 
@@ -710,96 +716,10 @@
 				box-shadow: -1px -1px 2px 0 rgba(0, 0, 0, 0.05);
 			}
 
-/* Banner */
+	
 
-	#banner {
-		background-attachment: scroll,						fixed;
-		background-color: #494d53;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: top left,					center center;
-		background-repeat: repeat,						no-repeat;
-		background-size: auto,						cover;
-		color: #d1d2d4;
-		padding: 16em 0;
-		position: relative;
-		text-align: center;
-	}
 
-		#banner:after {
-			-moz-transition: opacity 2s ease-in-out;
-			-webkit-transition: opacity 2s ease-in-out;
-			-o-transition: opacity 2s ease-in-out;
-			-ms-transition: opacity 2s ease-in-out;
-			transition: opacity 2s ease-in-out;
-			background: #3d4045;
-			content: '';
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 1;
-		}
 
-		#banner :last-child {
-			margin-bottom: 0;
-		}
-
-		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #ffffff;
-		}
-
-		#banner .inner {
-			position: relative;
-			z-index: 2;
-		}
-
-		#banner .button {
-			border-color: white !important;
-			color: #ffffff !important;
-		}
-
-			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.075);
-			}
-
-			#banner .button:active {
-				background-color: rgba(255, 255, 255, 0.2);
-			}
-
-		#banner h2 {
-			font-size: 3.25em;
-			line-height: 1.25em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
-		}
-
-		#banner p {
-			font-size: 1.5em;
-			margin-bottom: 1.75em;
-		}
-
-	body.is-loading #banner:after {
-		opacity: 1.0;
-	}
-
-/* One */
-
-	#one {
-		padding-bottom: 0;
-	}
-
-		#one .slider .viewer {
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
-			border-bottom: 0;
-		}
-
-		#one .slider .slide img {
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
-		}
 
 /* Main */
 
