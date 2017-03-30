@@ -31,8 +31,8 @@ li {
   display: inline;
   padding-left: 8%;
   padding-right: 8%;
-  border-left: dotted;
-  border-right: dotted;
+  border-left: dashed;
+  border-right: dashed;
   
   
 }
