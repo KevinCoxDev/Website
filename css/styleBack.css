@@ -1,0 +1,24 @@
+.pictureWrap{
+		#background: blue;
+		background-image: url("/images/overlay2.jpg");
+		background-size: cover;
+	}
+	
+	.pictureWrap1{
+		background: blue;
+		background-image: url("/images/overlay3.jpg");
+	}
+	
+	.pictureWrap2{
+		background: blue;
+		background-image: url("/images/overlay2.png");
+		background-size: cover;
+	}
+
+	.frontOfPic{
+		
+	}
+	
+	.aboutbody{
+		background: blue;
+	}
