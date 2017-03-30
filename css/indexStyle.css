@@ -1,7 +1,7 @@
 
 body{
     color: black;
-	background-color: #e0555a;
+	background-color: #e5f5ff;
 	background-image: url("../images/banner.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -27,23 +27,25 @@ ul {
 
 li {
   font-family: 'Oswald', sans-serif;
-  font-size: 4em;
+  font-size: 2em;
   display: inline;
   padding-left: 8%;
   padding-right: 8%;
+  border-left: dotted;
+  border-right: dotted;
   
   
 }
  
 a {
   text-decoration: none;
-  color: #fff;
+  color: #0033cc;
   
   transition: .3s background-color;
 }
  
 a:hover {
-  color: #005f5f;
+  color: #ffffff;
 }
  
 a.active {
