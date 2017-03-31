@@ -843,8 +843,9 @@
 			height: 3.5em;
 			line-height: 3.5em;
 			padding: 0 2.25em;
-			background-color: black;
+			background-color: blue;
 			color: black;
+			
 		}
 
 		input[type="submit"].special,
@@ -927,19 +928,21 @@
 	}
 
 		.slider .viewer {
-			position: relative;
+			position: absolute;
 			border-radius: 0.5em;
 			border: solid 1.5em #fff;
-			height: 20em;
+			#height: 20em;
 			margin: 0 auto;
 			overflow: hidden;
-			width: 80%;
+			width: 70%;
 		}
 
 		.slider .slide img {
 			border-radius: 0.375em;
 			display: block;
-			width: 100%;
+			margin-left: 20%;
+			width: 60%;
+			height: 100%;
 		}
 
 		.slider .nav-next,
